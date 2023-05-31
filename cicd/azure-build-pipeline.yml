@@ -59,11 +59,11 @@ steps:
 
 # Publishes the test results to Azure DevOps. This lets you visualize
 # reports and dashboards related to the status of the build process.
-- task: PublishTestResults@2
-  inputs:
-    testResultsFiles: '**/TEST-*.xml'
-    failTaskOnFailedTests: true
-    publishRunAttachments: true
+#- task: PublishTestResults@2
+#  inputs:
+#    testResultsFiles: '**/TEST-*.xml'
+#    failTaskOnFailedTests: true
+#    publishRunAttachments: true
 
 # Package the example Python code into a Python wheel.
 - script: |
