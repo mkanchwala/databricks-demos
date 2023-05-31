@@ -29,7 +29,7 @@ steps:
 # with Databricks Runtime 10.4 LTS on the cluster.
 - script: |
     pip install pytest requests setuptools wheel
-    pip install -U databricks-connect==12.2.*
+    pip install -U databricks-connect==11.3.*
   displayName: 'Load Python dependencies'
 
 # Use environment variables to pass Azure Databricks workspace and cluster
