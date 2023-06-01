@@ -90,6 +90,8 @@ steps:
     cp $(Build.Repository.LocalPath)/cicd-scripts/*.* $(Build.BinariesDirectory)/cicd-scripts
     mkdir -p $(Build.BinariesDirectory)/notebooks
     cp $(Build.Repository.LocalPath)/notebooks/*.* $(Build.BinariesDirectory)/notebooks
+    mkdir -p $(Build.BinariesDirectory)/terraform
+    cp $(Build.Repository.LocalPath)/terraform/*.* $(Build.BinariesDirectory)/terraform
   displayName: 'Get Changes'
 
 # Create the deployment artifact and then publish it to the
