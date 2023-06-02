@@ -1,0 +1,817 @@
+{
+    "source": 2,
+    "revision": 31,
+    "description": null,
+    "createdBy": {
+        "displayName": "Murtaza Kanchwala",
+        "url": "https://spsproduks1.vssps.visualstudio.com/Ae007619d-4afa-44f5-a6b9-e62216c0a990/_apis/Identities/a22334ab-723d-6276-aae4-708dfe2ba67f",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+            }
+        },
+        "id": "a22334ab-723d-6276-aae4-708dfe2ba67f",
+        "uniqueName": "murtaza.kanchwala@databricks.com",
+        "imageUrl": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm",
+        "descriptor": "aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+    },
+    "createdOn": "2023-06-01T12:21:43.040Z",
+    "modifiedBy": {
+        "displayName": "Murtaza Kanchwala",
+        "url": "https://spsproduks1.vssps.visualstudio.com/Ae007619d-4afa-44f5-a6b9-e62216c0a990/_apis/Identities/a22334ab-723d-6276-aae4-708dfe2ba67f",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+            }
+        },
+        "id": "a22334ab-723d-6276-aae4-708dfe2ba67f",
+        "uniqueName": "murtaza.kanchwala@databricks.com",
+        "imageUrl": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm",
+        "descriptor": "aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+    },
+    "modifiedOn": "2023-06-01T22:33:26.760Z",
+    "isDeleted": false,
+    "lastRelease": {
+        "id": 14,
+        "name": "Release-14",
+        "artifacts": [],
+        "_links": {},
+        "description": "",
+        "releaseDefinition": {
+            "id": 1,
+            "projectReference": null,
+            "_links": {}
+        },
+        "createdOn": "2023-06-01T22:36:55.877Z",
+        "createdBy": {
+            "displayName": "Murtaza Kanchwala",
+            "url": "https://spsproduks1.vssps.visualstudio.com/Ae007619d-4afa-44f5-a6b9-e62216c0a990/_apis/Identities/a22334ab-723d-6276-aae4-708dfe2ba67f",
+            "_links": {
+                "avatar": {
+                    "href": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+                }
+            },
+            "id": "a22334ab-723d-6276-aae4-708dfe2ba67f",
+            "uniqueName": "murtaza.kanchwala@databricks.com",
+            "imageUrl": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm",
+            "descriptor": "aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+        }
+    },
+    "variables": {
+        "DATABRICKS_CLUSTER_ID": {
+            "value": "0519-XXXX"
+        },
+        "DATABRICKS_HOST": {
+            "value": "https://adb-XXXX.azuredatabricks.net"
+        },
+        "DATABRICKS_TOKEN": {
+            "value": "<PAT>"
+        }
+    },
+    "variableGroups": [],
+    "environments": [
+        {
+            "id": 1,
+            "name": "Production",
+            "rank": 1,
+            "owner": {
+                "displayName": "Murtaza Kanchwala",
+                "url": "https://spsproduks1.vssps.visualstudio.com/Ae007619d-4afa-44f5-a6b9-e62216c0a990/_apis/Identities/a22334ab-723d-6276-aae4-708dfe2ba67f",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+                    }
+                },
+                "id": "a22334ab-723d-6276-aae4-708dfe2ba67f",
+                "uniqueName": "murtaza.kanchwala@databricks.com",
+                "imageUrl": "https://dev.azure.com/mkanchwala-dbx/_apis/GraphProfile/MemberAvatars/aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm",
+                "descriptor": "aad.YTIyMzM0YWItNzIzZC03Mjc2LWFhZTQtNzA4ZGZlMmJhNjdm"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 1
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 1
+                }
+            },
+            "deployStep": {
+                "id": 2
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 3
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 2
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": 0
+                        },
+                        "agentSpecification": {
+                            "identifier": "ubuntu-20.04"
+                        },
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 18,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": 1,
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "33c63b11-352b-45a2-ba1b-54cb568a29ca",
+                            "version": "0.*",
+                            "name": "Use Python 3.9",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "versionSpec": "3.9",
+                                "disableDownloadFromRegistry": "false",
+                                "allowUnstable": "false",
+                                "githubToken": "",
+                                "addToPath": "true",
+                                "architecture": "x64"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "5e1e3830-fbfb-11e5-aab1-090c92bc4988",
+                            "version": "1.*",
+                            "name": "Extract build pipeline artifact",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "archiveFilePatterns": "**/*.zip",
+                                "destinationFolder": "$(Release.PrimaryArtifactSourceAlias)/Databricks",
+                                "cleanDestinationFolder": "true",
+                                "overwriteExistingFiles": "false",
+                                "pathToSevenZipTool": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Install Databricks CLI and unittest XML reporting",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "pip install databricks-cli\npip install unittest-xml-reporting",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Check Home Directory",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your commands here\n\necho ' All in /home/vsts/work/r1/a/'\nls -Rr1 . |  while read line; do case $line in *:) basepath=${line%:};; \"\") basepath=;; *) echo \"$basepath/$line\";; esac; done",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Copy notebook to workspace",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "databricks workspace import --language=PYTHON --format=SOURCE --overwrite \"$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/notebooks/dbxdemo-notebook.py\" \"/Shared/mkanchwala/dbxdemo-notebook.py\"",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Copy Python wheel to workspace",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "databricks fs cp  --overwrite \"$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/libraries/python/libs/dbxdemo-0.1.0-py3-none-any.whl\" \"dbfs:/libraries/python/libs/dbxdemo-0.1.0-py3-none-any.whl\"",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6392f95f-7e76-4a18-b3c7-7f078d2f7700",
+                            "version": "0.*",
+                            "name": "Install Python wheel on cluster",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "scriptSource": "filePath",
+                                "scriptPath": "$(Release.PrimaryArtifactSourceAlias)/Databricks/cicd-scripts/installWhlLibrary.py",
+                                "script": "",
+                                "arguments": "--shard=$(DATABRICKS_HOST) --token=$(DATABRICKS_TOKEN) --clusterid=$(DATABRICKS_CLUSTER_ID) --libs=$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/libraries/python/libs/ --dbfspath=/libraries/python/libs",
+                                "pythonInterpreter": "",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+                            "version": "2.*",
+                            "name": "Create Integration Tests Directories",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "script": "mkdir -p $(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/logs/json\nmkdir -p $(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/logs/xml\npip install pytest requests",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6392f95f-7e76-4a18-b3c7-7f078d2f7700",
+                            "version": "0.*",
+                            "name": "Run notebook",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "scriptSource": "filePath",
+                                "scriptPath": "$(Release.PrimaryArtifactSourceAlias)/Databricks/cicd-scripts/executenotebook.py",
+                                "script": "",
+                                "arguments": "--shard=$(DATABRICKS_HOST) --token=$(DATABRICKS_TOKEN) --clusterid=$(DATABRICKS_CLUSTER_ID) --localpath=$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/notebooks --workspacepath=/Shared --outfilepath=$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/logs/json",
+                                "pythonInterpreter": "",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6392f95f-7e76-4a18-b3c7-7f078d2f7700",
+                            "version": "0.*",
+                            "name": "Create and evaluate notebook test results",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "scriptSource": "filePath",
+                                "scriptPath": "$(Release.PrimaryArtifactSourceAlias)/Databricks/cicd-scripts/evaluatenotebookruns.py",
+                                "script": "",
+                                "arguments": "",
+                                "pythonInterpreter": "",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "0b0f01ed-7dde-43ff-9cbb-e48954daf9b1",
+                            "version": "2.*",
+                            "name": "Publish Test Results **/TEST-*.xml",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "testRunner": "JUnit",
+                                "testResultsFiles": "**/TEST-*.xml",
+                                "searchFolder": "$(System.DefaultWorkingDirectory)",
+                                "mergeTestResults": "false",
+                                "failTaskOnFailedTests": "false",
+                                "testRunTitle": "",
+                                "platform": "",
+                                "configuration": "",
+                                "publishRunAttachments": "true"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "a4789e5d-f6e8-431f-add9-379d640a883c",
+                            "version": "1.*",
+                            "name": "Install latest Terraform",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "terraformVersion": "latest"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "721c3f90-d938-11e8-9d92-09d7594721b5",
+                            "version": "0.*",
+                            "name": "terraform init",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "command": "init",
+                                "workingDirectory": "$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/terraform/",
+                                "environmentServiceName": "",
+                                "providerAzureRmSubscriptionId": "",
+                                "runAzLogin": "false",
+                                "secureVarsFile": "",
+                                "workspaceSubCommand": "select",
+                                "stateSubCommand": "list",
+                                "commandOptions": "",
+                                "backendType": "local",
+                                "backendServiceArm": "",
+                                "backendAzureRmSubscriptionId": "",
+                                "ensureBackend": "false",
+                                "backendAzureRmResourceGroupName": "",
+                                "backendAzureRmResourceGroupLocation": "",
+                                "backendAzureRmStorageAccountName": "",
+                                "backendAzureRmStorageAccountSku": "Standard_RAGRS",
+                                "backendAzureRmContainerName": "",
+                                "backendAzureRmKey": "",
+                                "aiInstrumentationKey": "88308046-7db8-45dd-bde7-0b4b5642a773",
+                                "allowTelemetryCollection": "true",
+                                "inputTargetPlanOrStateFilePath": "",
+                                "resourceAddress": "",
+                                "resourceId": "",
+                                "lockID": "",
+                                "publishPlanResults": "",
+                                "workspaceName": "",
+                                "skipExistingWorkspace": "false",
+                                "stateMoveSource": "",
+                                "stateMoveDestination": "",
+                                "stateAddresses": "",
+                                "backendServiceAws": "",
+                                "backendAwsRegion": "",
+                                "backendAwsBucket": "",
+                                "backendAwsKey": "",
+                                "providerServiceAws": "",
+                                "providerAwsRegion": "",
+                                "backendGcsCredentials": "",
+                                "backendGcsBucket": "",
+                                "backendGcsPrefix": "",
+                                "providerGoogleCredentials": "",
+                                "providerGoogleProject": "",
+                                "providerGoogleRegion": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "721c3f90-d938-11e8-9d92-09d7594721b5",
+                            "version": "0.*",
+                            "name": "terraform validate",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "command": "validate",
+                                "workingDirectory": "$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/terraform/",
+                                "environmentServiceName": "",
+                                "providerAzureRmSubscriptionId": "",
+                                "runAzLogin": "false",
+                                "secureVarsFile": "",
+                                "workspaceSubCommand": "select",
+                                "stateSubCommand": "list",
+                                "commandOptions": "",
+                                "backendType": "local",
+                                "backendServiceArm": "",
+                                "backendAzureRmSubscriptionId": "",
+                                "ensureBackend": "false",
+                                "backendAzureRmResourceGroupName": "",
+                                "backendAzureRmResourceGroupLocation": "",
+                                "backendAzureRmStorageAccountName": "",
+                                "backendAzureRmStorageAccountSku": "Standard_RAGRS",
+                                "backendAzureRmContainerName": "",
+                                "backendAzureRmKey": "",
+                                "aiInstrumentationKey": "88308046-7db8-45dd-bde7-0b4b5642a773",
+                                "allowTelemetryCollection": "true",
+                                "inputTargetPlanOrStateFilePath": "",
+                                "resourceAddress": "",
+                                "resourceId": "",
+                                "lockID": "",
+                                "publishPlanResults": "",
+                                "workspaceName": "",
+                                "skipExistingWorkspace": "false",
+                                "stateMoveSource": "",
+                                "stateMoveDestination": "",
+                                "stateAddresses": "",
+                                "backendServiceAws": "",
+                                "backendAwsRegion": "",
+                                "backendAwsBucket": "",
+                                "backendAwsKey": "",
+                                "providerServiceAws": "",
+                                "providerAwsRegion": "",
+                                "backendGcsCredentials": "",
+                                "backendGcsBucket": "",
+                                "backendGcsPrefix": "",
+                                "providerGoogleCredentials": "",
+                                "providerGoogleProject": "",
+                                "providerGoogleRegion": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "721c3f90-d938-11e8-9d92-09d7594721b5",
+                            "version": "0.*",
+                            "name": "terraform plan",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "command": "plan",
+                                "workingDirectory": "$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/terraform/",
+                                "environmentServiceName": "",
+                                "providerAzureRmSubscriptionId": "",
+                                "runAzLogin": "true",
+                                "secureVarsFile": "",
+                                "workspaceSubCommand": "select",
+                                "stateSubCommand": "list",
+                                "commandOptions": "",
+                                "backendType": "local",
+                                "backendServiceArm": "",
+                                "backendAzureRmSubscriptionId": "",
+                                "ensureBackend": "false",
+                                "backendAzureRmResourceGroupName": "",
+                                "backendAzureRmResourceGroupLocation": "",
+                                "backendAzureRmStorageAccountName": "",
+                                "backendAzureRmStorageAccountSku": "Standard_RAGRS",
+                                "backendAzureRmContainerName": "",
+                                "backendAzureRmKey": "",
+                                "aiInstrumentationKey": "88308046-7db8-45dd-bde7-0b4b5642a773",
+                                "allowTelemetryCollection": "true",
+                                "inputTargetPlanOrStateFilePath": "",
+                                "resourceAddress": "",
+                                "resourceId": "",
+                                "lockID": "",
+                                "publishPlanResults": "",
+                                "workspaceName": "",
+                                "skipExistingWorkspace": "false",
+                                "stateMoveSource": "",
+                                "stateMoveDestination": "",
+                                "stateAddresses": "",
+                                "backendServiceAws": "",
+                                "backendAwsRegion": "",
+                                "backendAwsBucket": "",
+                                "backendAwsKey": "",
+                                "providerServiceAws": "",
+                                "providerAwsRegion": "",
+                                "backendGcsCredentials": "",
+                                "backendGcsBucket": "",
+                                "backendGcsPrefix": "",
+                                "providerGoogleCredentials": "",
+                                "providerGoogleProject": "",
+                                "providerGoogleRegion": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "721c3f90-d938-11e8-9d92-09d7594721b5",
+                            "version": "0.*",
+                            "name": "terraform apply",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "command": "apply",
+                                "workingDirectory": "$(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/terraform/",
+                                "environmentServiceName": "",
+                                "providerAzureRmSubscriptionId": "",
+                                "runAzLogin": "true",
+                                "secureVarsFile": "",
+                                "workspaceSubCommand": "select",
+                                "stateSubCommand": "list",
+                                "commandOptions": "",
+                                "backendType": "local",
+                                "backendServiceArm": "",
+                                "backendAzureRmSubscriptionId": "",
+                                "ensureBackend": "false",
+                                "backendAzureRmResourceGroupName": "",
+                                "backendAzureRmResourceGroupLocation": "",
+                                "backendAzureRmStorageAccountName": "",
+                                "backendAzureRmStorageAccountSku": "Standard_RAGRS",
+                                "backendAzureRmContainerName": "",
+                                "backendAzureRmKey": "",
+                                "aiInstrumentationKey": "88308046-7db8-45dd-bde7-0b4b5642a773",
+                                "allowTelemetryCollection": "true",
+                                "inputTargetPlanOrStateFilePath": "",
+                                "resourceAddress": "",
+                                "resourceId": "",
+                                "lockID": "",
+                                "publishPlanResults": "",
+                                "workspaceName": "",
+                                "skipExistingWorkspace": "false",
+                                "stateMoveSource": "",
+                                "stateMoveDestination": "",
+                                "stateAddresses": "",
+                                "backendServiceAws": "",
+                                "backendAwsRegion": "",
+                                "backendAwsBucket": "",
+                                "backendAwsKey": "",
+                                "providerServiceAws": "",
+                                "providerAwsRegion": "",
+                                "backendGcsCredentials": "",
+                                "backendGcsBucket": "",
+                                "backendGcsPrefix": "",
+                                "providerGoogleCredentials": "",
+                                "providerGoogleProject": "",
+                                "providerGoogleRegion": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": 1,
+                    "value": ""
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 14,
+                "url": "https://vsrm.dev.azure.com/mkanchwala-dbx/54a510a4-598e-400e-8cf2-ab66f2e9c486/_apis/Release/releases/14",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "BoardsEnvironmentType": {
+                    "$type": "System.String",
+                    "$value": "unmapped"
+                },
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/mkanchwala-dbx/_apis/public/Release/badge/54a510a4-598e-400e-8cf2-ab66f2e9c486/1/1"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "54a510a4-598e-400e-8cf2-ab66f2e9c486:1",
+            "type": "Build",
+            "alias": "_mkanchwala.databricks-demos",
+            "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/mkanchwala-dbx/_permalink/_build/index?collectionId=eb365f85-096f-48ad-a300-72fd61eafbe3&projectId=54a510a4-598e-400e-8cf2-ab66f2e9c486&definitionId=1",
+                    "name": ""
+                },
+                "defaultVersionBranch": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionTags": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestType",
+                    "name": "Latest"
+                },
+                "definition": {
+                    "id": "1",
+                    "name": "mkanchwala.databricks-demos"
+                },
+                "definitions": {
+                    "id": "",
+                    "name": ""
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "project": {
+                    "id": "54a510a4-598e-400e-8cf2-ab66f2e9c486",
+                    "name": "Databricks"
+                },
+                "repository": {
+                    "id": "",
+                    "name": ""
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "ReleaseNew"
+        },
+        "IntegrateBoardsWorkItems": {
+            "$type": "System.String",
+            "$value": "False"
+        },
+        "IntegrateJiraWorkItems": {
+            "$type": "System.String",
+            "$value": "false"
+        }
+    },
+    "id": 1,
+    "name": "Databricks-Demo",
+    "path": "\\",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/mkanchwala-dbx/54a510a4-598e-400e-8cf2-ab66f2e9c486/_apis/Release/definitions/1",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/mkanchwala-dbx/54a510a4-598e-400e-8cf2-ab66f2e9c486/_apis/Release/definitions/1"
+        },
+        "web": {
+            "href": "https://dev.azure.com/mkanchwala-dbx/54a510a4-598e-400e-8cf2-ab66f2e9c486/_release?definitionId=1"
+        }
+    }
+}
