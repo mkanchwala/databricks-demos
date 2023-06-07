@@ -9,9 +9,6 @@ from pandas.core.frame import DataFrame
 from pyspark.sql import DataFrame
 from pyspark.sql.functions import input_file_name, split, reverse, col
 
-# Custom library import here
-from com.elexon.data.parsers.CDCAParser import flatten
-
 # COMMAND ----------
 
 # Setting Job Parameters -> Get them from KeyVault, already added, fix connection
